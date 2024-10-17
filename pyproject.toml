@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adjoint-matrix"
+version = "0.1.0"
+description = ""
+authors = ["Alvaro Diaz Valenzuela <alvaro@efaa.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
